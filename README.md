@@ -1,6 +1,8 @@
 # K610d-i5-d3-efi
 Hasee k610d i5 d3 efi with clover4934 for macOS 10.14.5
 
+![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshot.png)
+
 说明
 -----
 1、wifi无解(某宝comfast wu810n usb wifi已解决)  
