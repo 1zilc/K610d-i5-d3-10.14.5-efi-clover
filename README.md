@@ -1,5 +1,6 @@
 # K610d-i5-d3-efi
-Hasee k610d i5 d3 efi with clover4934 for macOS 10.14.5
+Hasee k610d i5 d3 efi with clover4934 for macOS 10.14.5  
+个人博客:(https://www.1zilc.top/)
 
 ![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshot.png)
 
