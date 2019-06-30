@@ -783,24 +783,6 @@
 				AQMDAwAAAAIAADABAACQAAAAAIA=
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>chage bluetooth pid</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				ODY4MA==
-				</data>
-				<key>InfoPlistPatch</key>
-				<true/>
-				<key>Name</key>
-				<string>BroadcomBluetoothHostControllerUSBTransport</string>
-				<key>Replace</key>
-				<data>
-				MjAxMg==
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -823,7 +805,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02415303J9FJQWJA</string>
+		<string>C02311100CDFJQWJA</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -853,9 +835,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro11,2</string>
 		<key>SerialNumber</key>
-		<string>C02MKTY6G86R</string>
+		<string>C02KF0J4G9FT</string>
 		<key>SmUUID</key>
-		<string>3BFE0D46-5DD8-40EA-92BB-A33CC49D5E57</string>
+		<string>CFD80534-F51F-4D52-B1D9-0CF64E3553F9</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
