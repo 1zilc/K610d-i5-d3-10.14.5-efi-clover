@@ -38,6 +38,7 @@ Hasee k610d i5 d3 efi with clover4972 for macOS 10.14.5
 * 更新AirportBrcmFixup至2.0.0  
 * 修复蓝牙无法驱动的问题,已patch到Kexts补丁,自带intel蓝牙id为0x07dc(若失效则参考:https://www.jianshu.com/p/877da48507e2)  
 * 建议开启hidpi(参考:https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)  
+* 更换默认clover主题为OSS  
 
 #### 2019.6.10
 * 缓冲帧注入补丁,显存提升至2048mb  
