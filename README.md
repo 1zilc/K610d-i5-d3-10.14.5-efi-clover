@@ -34,12 +34,12 @@ Hasee k610d i5 d3 efi with clover4972 for macOS 10.14.5
 更新日志
 -------
 #### 2019.7.1
-* 更换原装蓝牙id注入方式,通过fakeSMC注入,pid 2012,vid 32903  
+* 更换原装蓝牙id注入方式,通过fakeSMC注入,pid 2012,vid 32903(若失效则参考:https://www.jianshu.com/p/877da48507e2)  
 
 #### 2019.6.30
 * 更新clover至4972,理论上支持macOS Catalina 10.15 beta2  
 * 更新AirportBrcmFixup至2.0.0  
-* 修复蓝牙无法驱动的问题,已patch到Kexts补丁,自带intel蓝牙id为0x07dc(若失效则参考:https://www.jianshu.com/p/877da48507e2)  
+* ~~修复蓝牙无法驱动的问题,已patch到Kexts补丁,自带intel蓝牙id为0x07dc~~  
 * 建议开启hidpi(参考:https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)  
 * 更换默认clover主题为OSS  
 
