@@ -793,7 +793,7 @@
 				ODY4MA==
 				</data>
 				<key>InfoPlistPatch</key>
-				<true/>
+				<false/>
 				<key>Name</key>
 				<string>BroadcomBluetoothHostControllerUSBTransport</string>
 				<key>Replace</key>

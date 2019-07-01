@@ -291,6 +291,19 @@
 			<key>IOUserClientClass</key>
 			<string>FakeSMCKeyStoreUserClient</string>
 		</dict>
+		<key>BroadcomUSBBluetoothHCIController</key>
+        <dict>
+                <key>CFBundleIdentifier</key>
+                <string>com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport</string>
+                <key>IOClass</key>
+                <string>BroadcomBluetoothHostControllerUSBTransport</string>
+                <key>IOProviderClass</key>
+                <string>IOUSBHostDevice</string>
+                <key>idProduct</key>
+                <integer>2012</integer>
+                <key>idVendor</key>
+                <integer>32903</integer>
+        </dict>
 	</dict>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2017 netkas. All rights reserved.</string>
