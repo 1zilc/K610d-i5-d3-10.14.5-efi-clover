@@ -562,15 +562,15 @@
 		<dict>
 			<key>Custom</key>
 			<data>
-			AP///////wAw5HAEAAAAAAAYAQSVIxN46tyVo1hVoCYNUFQAAAAB
-			AQEBAQEBAQEBAQEBAQEBLjaAoHA4H0AwIDUAWcIQAAAaAAAAAAAA
-			AAAAAAAAAAAAAAAAAAAA/gBMRyBEaXNwbGF5CiAgAAAA/gBMUDE1
-			NldGNi1TUEExAHs=
+			AP///////wAGr+04AAAAACsYAQSVIhN4Arv1lFVUkCcjUFQAAAAB
+			AQEBAQEBAQEBAQEBAQEBeDeAtHA4LkBsMKoAWMEQAAAYAAAADwAA
+			AAAAAAAAAAAAAAAgAAAA/gBBVU8KICAgICAgICAgAAAA/gBCMTU2
+			SFROMDMuOCAKALA=
 			</data>
 			<key>Inject</key>
 			<true/>
 			<key>ProductID</key>
-			<string>0x1579</string>
+			<string>0x38ED</string>
 			<key>VendorID</key>
 			<data>
 			JTM=
