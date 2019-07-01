@@ -6,7 +6,7 @@ Hasee k610d i5 d3 efi with clover4972 for macOS 10.14.5
 -----
 
 ![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot1.png)
-![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot2.png)
+![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot4.png)
 ![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot3.png)
 
 说明
@@ -21,7 +21,7 @@ Hasee k610d i5 d3 efi with clover4972 for macOS 10.14.5
 8、usb完美,hdmi完美,不支持vga  
 9、已注入原装屏幕edid ,如果出现花屏闪屏自行提取自己的edid注入  
 10、触控板最多支持三指手势  
-11、自带intel蓝牙驱动patch到kext,开机正常使用(睡眠唤醒后失效)  
+11、自带intel蓝牙驱动正常  
 12、请自行开启hidpi  
 13、cpu可睿频,最高支持8档变频
 
@@ -33,6 +33,9 @@ Hasee k610d i5 d3 efi with clover4972 for macOS 10.14.5
 
 更新日志
 -------
+#### 2019.7.1
+* 更换原装蓝牙id注入方式,通过fakeSMC注入,pid 2012,vid 32903  
+
 #### 2019.6.30
 * 更新clover至4972,理论上支持macOS Catalina 10.15 beta2  
 * 更新AirportBrcmFixup至2.0.0  
