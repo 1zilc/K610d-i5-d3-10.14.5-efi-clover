@@ -783,24 +783,6 @@
 				AQMDAwAAAAIAADABAACQAAAAAIA=
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>chage bluetooth pid</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				ODY4MA==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>BroadcomBluetoothHostControllerUSBTransport</string>
-				<key>Replace</key>
-				<data>
-				MjAxMg==
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
