@@ -10,12 +10,10 @@
 	<dict>
 		<key>Background</key>
 		<dict>
-			<key>Color</key>
-			<string>0xF3F3F380</string>
 			<key>Dark</key>
 			<true/>
 			<key>Path</key>
-			<string>background.png</string>
+			<string>back.png</string>
 			<key>Type</key>
 			<string>Tile</string>
 		</dict>
@@ -28,6 +26,8 @@
 			<key>Swap</key>
 			<false/>
 		</dict>
+		<key>BootCampStyle</key>
+		<false/>
 		<key>Components</key>
 		<dict>
 			<key>Banner</key>
@@ -40,6 +40,8 @@
 			<true/>
 			<key>MenuTitle</key>
 			<true/>
+			<key>MenuTitleImage</key>
+			<false/>
 			<key>Revision</key>
 			<false/>
 		</dict>
@@ -58,6 +60,8 @@
 		<dict>
 			<key>Big</key>
 			<string>select_trans_big.png</string>
+			<key>ChangeNonSelectedGrey</key>
+			<false/>
 			<key>Color</key>
 			<string>0xF3F3F380</string>
 			<key>OnTop</key>
