@@ -1,5 +1,5 @@
 # K610d-i5-d3-efi
-Hasee k610d i5 d3 efi with clover4972 for macOS 10.14.5  
+Hasee k610d i5 d3 efi with clover5018 for macOS 10.14.5  
 个人博客: https://www.1zilc.top/
 
 屏幕截图
@@ -14,7 +14,7 @@ Hasee k610d i5 d3 efi with clover4972 for macOS 10.14.5
 1、wifi无解(某宝comfast wu810n usb wifi已解决)  
 2、独显无解(已屏蔽)  
 3、核显已驱动 显存2048mb  
-4、clover v4972  
+4、clover v5018  
 5、睡眠完美  
 6、小太阳完美(可通过fn组合键调节)  
 7、声卡完美(内建声卡、可通过fn组合键调节)  
@@ -33,6 +33,14 @@ Hasee k610d i5 d3 efi with clover4972 for macOS 10.14.5
 
 更新日志
 -------
+#### 2019.7.21
+* 更新clover至5018,理论上支持macOS Catalina 10.15 beta4  
+* 更新lilu.kext至1.3.7  
+* 更新AppleALC.kext至1.3.9  
+* 更新WhateverGreen.kext至1.3.0  (三件套增加对10.15的支持,详细更新内容自行查看:https://github.com/acidanthera)  
+* 关于AR 9485的驱动,感谢[i0Ek3](https://github.com/i0Ek3)的issure,将[Atheros9485](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/tree/master/Atheros9485)目录下的驱动放至S/L/E,再使用kext utility重建缓存即可  
+* 添加了ATH9KFixup.kext,且添加启动参数-ath9485
+
 #### 2019.7.1
 * 更换原装蓝牙id注入方式,通过fakeSMC注入,pid 2012,vid 32903(若失效则参考:https://www.jianshu.com/p/877da48507e2)  
 
@@ -48,8 +56,8 @@ Hasee k610d i5 d3 efi with clover4972 for macOS 10.14.5
 
 #### 2019.6.5
 * 更新lilu.kext至1.3.6  
-* 更新AppleALC至1.3.8  
-* 更新WhateverGreen至1.2.9  
+* 更新AppleALC.kext至1.3.8  
+* 更新WhateverGreen.kext至1.2.9  
 
 #### 2019.5.25
 * 更新clover至4934
