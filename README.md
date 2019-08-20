@@ -11,10 +11,10 @@ Hasee k610d i5 d3 efi with clover5045 for macOS 10.14.6
 
 说明
 -----
-1、ac3160 无解(某宝comfast wu810n usb wifi已解决)  
+1、Intel(R) Dual Band Wireless-AC 3160 无解(某宝comfast wu810n usb wifi已解决)  
 2、独显无解(已屏蔽)  
 3、核显已驱动 显存2048mb  
-4、clover v5018  
+4、clover v5045  
 5、睡眠完美  
 6、小太阳完美(可通过fn组合键调节)  
 7、声卡完美(内建声卡、可通过fn组合键调节)  
