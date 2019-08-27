@@ -1,4 +1,6 @@
 # K610d-i5-d3-efi
+<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/1zilc/K610d-i5-d3-10.14.5-efi-clover/total">&nbsp;
+
 Hasee k610d i5 d3 efi with clover5045 for macOS 10.14.6  
 个人博客: https://www.1zilc.top/
 
