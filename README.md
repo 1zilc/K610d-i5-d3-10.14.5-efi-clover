@@ -1,5 +1,7 @@
 # K610d-i5-d3-efi
 <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/1zilc/K610d-i5-d3-10.14.5-efi-clover/total">&nbsp;
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/1zilc/K610d-i5-d3-10.14.5-efi-clover">&nbsp;
+
 
 Hasee k610d i5 d3 efi with clover5070 for macOS 10.14.6  
 个人博客: https://www.1zilc.top/
@@ -37,6 +39,12 @@ Hasee k610d i5 d3 efi with clover5070 for macOS 10.14.6
 
 更新日志
 -------
+#### 2019.11.21
+* 更新clover至5098,理论上支持macOS Catalina 10.15.1  
+* 更新lilu.kext至1.3.9  
+* 更新AppleALC.kext至1.4.3  
+* 更新WhateverGreen.kext至1.3.4  
+
 #### 2019.10.14
 * 更新clover至5070,理论上支持macOS Catalina 10.15 正式版  
 * 更新AppleALC.kext至1.4.2  
