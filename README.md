@@ -3,7 +3,7 @@
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/1zilc/K610d-i5-d3-10.14.5-efi-clover">&nbsp;
 
 
-Hasee k610d i5 d3 efi with clover5070 for macOS 10.14.6  
+Hasee k610d i5 d3 efi with clover5098 for macOS 10.14.6  
 个人博客: https://www.1zilc.top/
 
 屏幕截图
@@ -18,7 +18,7 @@ Hasee k610d i5 d3 efi with clover5070 for macOS 10.14.6
 1、Intel(R) Dual Band Wireless-AC 3160 无解(某宝comfast wu810n usb wifi已解决)  
 2、独显无解(已屏蔽)  
 3、核显已驱动 显存2048mb  
-4、clover v5070  
+4、clover v5098  
 5、睡眠完美  
 6、小太阳完美(可通过fn组合键调节)  
 7、声卡完美(内建声卡、可通过fn组合键调节)  
