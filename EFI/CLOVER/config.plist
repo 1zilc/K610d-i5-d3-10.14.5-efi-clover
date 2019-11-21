@@ -765,24 +765,6 @@
 				g32MFQ==
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>1536MB -&gt; 2048MB for HD4200_4400_4600 Mobile</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQMDAwAAAAIAADABAABgAAAAAGA=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleIntelFramebufferAzul</string>
-				<key>Replace</key>
-				<data>
-				AQMDAwAAAAIAADABAACQAAAAAIA=
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
