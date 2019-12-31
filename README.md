@@ -10,6 +10,7 @@ Hasee k610d i5 d3 efi with clover5101 for macOS 10.14.6
 -----
 
 ![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot1.png)
+![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot2.png)
 ![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot4.png)
 ![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot3.png)
 
@@ -27,8 +28,8 @@ Hasee k610d i5 d3 efi with clover5101 for macOS 10.14.6
 10、触控板最多支持三指手势  
 11、自带intel蓝牙驱动正常  
 12、请自行[开启hidpi](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)  
-13、cpu可睿频,最高支持8档变频
-
+13、cpu可睿频,最高支持8档变频  
+14、感谢[as614001](https://github.com/as614001)提供的方法,AR9485驱动方式参考[issue](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/issues/15)  
 
 已知bug
 ------
