@@ -501,6 +501,16 @@
 				<key>Replace</key>
 				<data>ILniAAAAkJA=</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>fix HDA and appleALC clash</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>Y29tLmFwcGxlAF9fa2VybmVsX18A</data>
+				<key>Replace</key>
+				<data>Y29tLmFwcGxlAF9fa2VybmVsX18A</data>
+			</dict>
 		</array>
 		<key>KextsToPatch</key>
 		<array>
