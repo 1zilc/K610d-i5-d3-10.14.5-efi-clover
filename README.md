@@ -40,7 +40,13 @@ Hasee k610d i5 d3 efi with clover5101 for macOS 10.14.6
 
 更新日志
 -------
+#### 2020.1.17
+* 合并10.15.2分支,修复HDA和appleALC 冲突引起的唤醒重启
+* 更换fakeSMC为VirtualSMC,更为完善的白果方案
+* [release 10.15.2](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/releases/tag/10.15.2)
+
 #### 2019.12.25🎄
+
 * 更新clover至5101,理论支持macOS Catalina 10.15.2  
 * 更新lilu.kext至1.4.0  
 * 更新AppleALC.kext至1.4.4  
