@@ -3,7 +3,7 @@
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/1zilc/K610d-i5-d3-10.14.5-efi-clover">&nbsp;
 
 
-Hasee k610d i5 d3 efi with clover5101 for macOS 10.14.6  
+Hasee k610d i5 d3 efi with clover5104 for macOS 10.14.6  
 个人博客: https://www.1zilc.top/
 
 屏幕截图
@@ -19,7 +19,7 @@ Hasee k610d i5 d3 efi with clover5101 for macOS 10.14.6
 1、Intel(R) Dual Band Wireless-AC 3160 无解(某宝comfast wu810n usb wifi已解决)  
 2、独显无解(已屏蔽)  
 3、核显已驱动 显存2048mb  
-4、clover v5101  
+4、clover v5104  
 5、睡眠完美  
 6、小太阳完美(可通过fn组合键调节)  
 7、声卡完美(内建声卡、可通过fn组合键调节)  
@@ -35,12 +35,22 @@ Hasee k610d i5 d3 efi with clover5101 for macOS 10.14.6
 ------
 1、~~蓝牙概率性故障~~(已解决)  
 2、如果使用fn+f1组合键睡眠后无法唤醒,需重启  
-3、~~部分人概率性花屏~~(表现为chrome等软件闪屏,请确保bios开启csm、启动方式为DUAL)  
+3、~~部分人概率性花屏~~(已解决)(表现为chrome等软件闪屏,请确保bios开启csm、启动方式为DUAL)  
 4、hdmi如出现问题,参考[whhjdi](https://github.com/whhjdi)的[issue](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/issues/5#issue-481843661)  
 
 更新日志
 -------
+#### 2020.2.25😷
+* 更新clover至5104,理论支持macOS Catalina 10.15.3
+* 更新lilu.kext至1.4.1
+* 更新AppleALC.kext至1.4.6
+* 更新WhateverGreen.kext至1.3.6
+* 更新VirtualSMC全家桶至1.1.1
+* 感谢[LeisureCheng](https://github.com/LeisureCheng)的建议,更新AirportBrcmFixup至2.0.6,支持博通网卡在10.15中驱动
+* 在properties中注入补丁,调整cursormemorysize为9mb,解决HD4600局部花屏
+
 #### 2020.1.17
+
 * 合并10.15.2分支,修复HDA和appleALC 冲突引起的唤醒重启
 * 更换fakeSMC为VirtualSMC,更为完善的白果方案
 * [release 10.15.2](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/releases/tag/10.15.2)
