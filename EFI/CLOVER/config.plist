@@ -445,14 +445,14 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<false/>
+			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>OSS</string>
+		<string>Blur</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
