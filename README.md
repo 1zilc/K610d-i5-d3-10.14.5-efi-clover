@@ -40,9 +40,10 @@ Hasee k610d i5 d3 efi with clover5104 for macOS 10.14.6
 
 更新日志
 -------
-####2020.3.4
+#### 2020.3.4
 * 感谢[c834606877](https://github.com/c834606877)的[PR](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/pull/25),现已合并到master分支, 修改USB电源属性，以满足iPad和iPhone的2.1A快充功能等
 * 回退VirtualSMC为fakeSMC
+* 新增blur主题
 
 #### 2020.2.25😷
 * 更新clover至5104,理论支持macOS Catalina 10.15.3
