@@ -452,7 +452,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Blur</string>
+		<string>OSS</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>

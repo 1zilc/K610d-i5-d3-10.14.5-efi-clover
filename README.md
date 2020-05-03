@@ -1,10 +1,8 @@
 # K610d-i5-d3-efi
-<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/1zilc/K610d-i5-d3-10.14.5-efi-clover/total">&nbsp;
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/1zilc/K610d-i5-d3-10.14.5-efi-clover">&nbsp;
 
 
-Hasee k610d i5 d3 efi with clover5104 for macOS 10.14.6  
-个人博客: https://www.1zilc.top/
+Hasee k610d i5 d3 efi with clover5115 for macOS 10.14.6  
 
 屏幕截图
 -----
@@ -19,7 +17,7 @@ Hasee k610d i5 d3 efi with clover5104 for macOS 10.14.6
 1、Intel(R) Dual Band Wireless-AC 3160 无解(某宝comfast wu810n usb wifi已解决)  
 2、独显无解(已屏蔽)  
 3、核显已驱动 显存2048mb  
-4、clover v5104  
+4、clover v5115  
 5、睡眠完美  
 6、小太阳完美(可通过fn组合键调节)  
 7、声卡完美(内建声卡、可通过fn组合键调节)  
@@ -30,6 +28,7 @@ Hasee k610d i5 d3 efi with clover5104 for macOS 10.14.6
 12、请自行[开启hidpi](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)  
 13、cpu可睿频,最高支持8档变频  
 14、感谢[as614001](https://github.com/as614001)提供的方法,AR9485驱动方式参考[issue](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/issues/15)  
+15、如果需要稳定的MAC系统的话不推荐一直升级，每次升级都会出现不同的问题，毕竟目前10.15版本还是存在很多不稳定bug。稳定的版本推荐[10.14.6](https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html)，将EFI替换即可,这个版本相对稳定很多，bug较少。
 
 已知bug
 ------
@@ -40,13 +39,19 @@ Hasee k610d i5 d3 efi with clover5104 for macOS 10.14.6
 
 更新日志
 -------
+#### 2020.5.3
+* clover --> 5115 支持引导10.15.4
+* lilu --> 1.4.3
+* AppleALC --> 1.4.8
+* WhateverGreen --> 1.3.8
+
 #### 2020.3.4
 * 感谢[c834606877](https://github.com/c834606877)的[PR](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/pull/25),现已合并到master分支, 修改USB电源属性，以满足iPad和iPhone的2.1A快充功能等
 * 回退VirtualSMC为fakeSMC
 * 新增blur主题
 
 #### 2020.2.25😷
-* 更新clover至5104,理论支持macOS Catalina 10.15.3
+* 更新clover至5104
 * 更新lilu.kext至1.4.1
 * 更新AppleALC.kext至1.4.6
 * 更新WhateverGreen.kext至1.3.6
@@ -55,13 +60,11 @@ Hasee k610d i5 d3 efi with clover5104 for macOS 10.14.6
 * 在properties中注入补丁,调整cursormemorysize为9mb,解决HD4600局部花屏
 
 #### 2020.1.17
-
 * 合并10.15.2分支,修复HDA和appleALC 冲突引起的唤醒重启
 * ~~更换fakeSMC为VirtualSMC,更为完善的白果方案~~
 * [release 10.15.2](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/releases/tag/10.15.2)
 
 #### 2019.12.25🎄
-
 * 更新clover至5101,理论支持macOS Catalina 10.15.2  
 * 更新lilu.kext至1.4.0  
 * 更新AppleALC.kext至1.4.4  
