@@ -2,22 +2,23 @@
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/1zilc/K610d-i5-d3-10.14.5-efi-clover">&nbsp;
 
 
-Hasee k610d i5 d3 efi with clover5115 for macOS 10.14.6  
+Hasee k610d i5 d3 efi with clover5118 for macOS 10.15.5  
 
 屏幕截图
 -----
 
 ![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot1.png)
 ![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot2.png)
+![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot5.png)
 ![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot4.png)
 ![avatar](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/blob/master/screenshots/screenshot3.png)
 
 说明
 -----
-1、Intel(R) Dual Band Wireless-AC 3160 无解(某宝comfast wu810n usb wifi已解决)  
+1、Intel(R) Dual Band Wireless-AC 3160 (方案一:可通过[intel-wifi](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/tree/master/intel-wifi)驱动)(方案二:某宝comfast wu810n usb wifi解决)  
 2、独显无解(已屏蔽)  
 3、核显已驱动 显存2048mb  
-4、clover v5115  
+4、clover v5118  
 5、睡眠完美  
 6、小太阳完美(可通过fn组合键调节)  
 7、声卡完美(内建声卡、可通过fn组合键调节)  
@@ -36,9 +37,19 @@ Hasee k610d i5 d3 efi with clover5115 for macOS 10.14.6
 2、如果使用fn+f1组合键睡眠后无法唤醒,需重启  
 3、~~部分人概率性花屏~~(已解决)(表现为chrome等软件闪屏,请确保bios开启csm、启动方式为DUAL)  
 4、hdmi如出现问题,参考[whhjdi](https://github.com/whhjdi)的[issue](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/issues/5#issue-481843661)  
+5、由于hda和appleALC存在冲突,hdmi在10.15.5以后暂时没有声音,10.15.3即以下的10.14系统用[老版本releases EFI](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/releases)没有问题
+6、10.15.5之后自带蓝牙暂时无法使用
 
 更新日志
 -------
+#### 2020.5.29
+* 更新clover至5118  支持引导10.15.5(已测试)
+* 更新lilu.kext至1.4.4
+* 更新AppleALC.kext至1.4.9
+* 更新WhateverGreen.kext至1.3.9
+* 在Devices-properties中注入补丁,屏蔽hdmi audio,解决睡眠唤醒后重启引导的问题,[参考tonymacx8](https://www.tonymacx86.com/threads/help-applealc-kernel-panic-after-catalina-update.284654/page-12)
+* 添加intel-ac3160-wifi驱动文件,ac3160成功驱动,速度还不错~,理论上intel网卡都可使用,参考[远景](http://bbs.pcbeta.com/viewthread-1856465-1-1.html)
+
 #### 2020.5.3
 * clover --> 5115 支持引导10.15.4
 * lilu --> 1.4.3
