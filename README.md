@@ -37,7 +37,7 @@ Hasee k610d i5 d3 efi with clover5118 for macOS 10.15.5
 2、如果使用fn+f1组合键睡眠后无法唤醒,需重启  
 3、~~部分人概率性花屏~~(已解决)(表现为chrome等软件闪屏,请确保bios开启csm、启动方式为DUAL)  
 4、hdmi如出现问题,参考[whhjdi](https://github.com/whhjdi)的[issue](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/issues/5#issue-481843661)  
-5、由于hda和appleALC存在冲突,hdmi在10.15.5以后暂时没有声音,10.15.3即以下的10.14系统用[老版本releases EFI](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/releases)没有问题
+5、由于hda和appleALC存在冲突,hdmi在10.15.5以后暂时没有声音,10.15.3即以下的10.14系统用[老版本releases EFI](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/releases)没有问题  
 6、10.15.5之后自带蓝牙暂时无法使用
 
 更新日志
