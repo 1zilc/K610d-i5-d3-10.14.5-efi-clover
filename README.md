@@ -25,7 +25,7 @@ Hasee k610d i5 d3 efi with clover5118 for macOS 10.15.5
 8、usb完美,hdmi完美,不支持vga  
 9、已注入原装屏幕edid ,如果出现花屏闪屏自行提取自己的edid注入  
 10、触控板最多支持三指手势  
-11、自带intel蓝牙驱动正常  
+11、自带intel蓝牙驱动正常(配合intel-wifi食用)  
 12、请自行[开启hidpi](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)  
 13、cpu可睿频,最高支持8档变频  
 14、感谢[as614001](https://github.com/as614001)提供的方法,AR9485驱动方式参考[issue](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/issues/15)  
@@ -38,17 +38,17 @@ Hasee k610d i5 d3 efi with clover5118 for macOS 10.15.5
 3、~~部分人概率性花屏~~(已解决)(表现为chrome等软件闪屏,请确保bios开启csm、启动方式为DUAL)  
 4、hdmi如出现问题,参考[whhjdi](https://github.com/whhjdi)的[issue](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/issues/5#issue-481843661)  
 5、由于hda和appleALC存在冲突,hdmi在10.15.5以后暂时没有声音,10.15.3即以下的10.14系统用[老版本releases EFI](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/releases)没有问题  
-6、10.15.5之后自带蓝牙暂时无法使用
 
 更新日志
 -------
 #### 2020.5.29
-* 更新clover至5118  支持引导10.15.5(已测试)
+* 更新clover至5118  支持引导10.15.5正式版(已更新)
 * 更新lilu.kext至1.4.4
 * 更新AppleALC.kext至1.4.9
 * 更新WhateverGreen.kext至1.3.9
-* 在Devices-properties中注入补丁,屏蔽hdmi audio,解决睡眠唤醒后重启引导的问题,[参考tonymacx8](https://www.tonymacx86.com/threads/help-applealc-kernel-panic-after-catalina-update.284654/page-12)
+* 在Devices-properties中注入补丁,屏蔽hdmi audio,解决睡眠唤醒后重启引导的问题,参考[tonymacx8](https://www.tonymacx86.com/threads/help-applealc-kernel-panic-after-catalina-update.284654/page-12)
 * 添加intel-ac3160-wifi驱动文件,ac3160成功驱动,速度还不错~,理论上intel网卡都可使用,参考[远景](http://bbs.pcbeta.com/viewthread-1856465-1-1.html)
+* [release 10.15.5](https://github.com/1zilc/K610d-i5-d3-10.14.5-efi-clover/releases/tag/10.15.5)
 
 #### 2020.5.3
 * clover --> 5115 支持引导10.15.4
