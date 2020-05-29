@@ -7,11 +7,11 @@ Hasee k610d i5 d3 efi with clover5118 for macOS 10.15.5
 屏幕截图
 -----
 
-![avatar](http://116.62.164.9:9009/files/preview/0dad2fcee6803b5edb73408181909ab9)
-![avatar](http://116.62.164.9:9009/files/preview/42948282b605635368f37a7013c0e28b)
-![avatar](http://116.62.164.9:9009/files/preview/8e722b0d52b93b1b13948fb61756bf5d)
-![avatar](http://116.62.164.9:9009/files/preview/e3d431a30adc07cc248ca15761ec1e82)
-![avatar](http://116.62.164.9:9009/files/preview/7da29420f3fccc0b837b2b0f481f78d8)
+![avatar](https://s1.ax1x.com/2020/05/29/tnJetH.png)
+![avatar](https://s1.ax1x.com/2020/05/29/tnJZAe.png)
+![avatar](https://s1.ax1x.com/2020/05/29/tnJE7D.png)
+![avatar](https://s1.ax1x.com/2020/05/29/tnJA0O.png)
+![avatar](https://s1.ax1x.com/2020/05/29/tnJknK.png)
 
 说明
 -----
