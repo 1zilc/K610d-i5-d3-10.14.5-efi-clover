@@ -8,7 +8,7 @@ Hasee k610d i5 d3 efi with clover5118 for macOS 10.15.5
 -----
 
 ![avatar](https://s1.ax1x.com/2020/05/29/tnJetH.png)
-![avatar](https://s1.ax1x.com/2020/05/29/tnJZAe.png)
+![avatar](https://s1.ax1x.com/2020/05/29/tuQood.png)
 ![avatar](https://s1.ax1x.com/2020/05/29/tnJE7D.png)
 ![avatar](https://s1.ax1x.com/2020/05/29/tnJA0O.png)
 ![avatar](https://s1.ax1x.com/2020/05/29/tnJknK.png)
